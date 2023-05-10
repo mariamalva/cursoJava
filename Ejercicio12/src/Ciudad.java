@@ -3,8 +3,6 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 public class Ciudad implements iCalculoPoblacion{
-	
-	
 		
 	String nombre = "";
 	double poblacionParcial = 0;
@@ -23,7 +21,7 @@ public class Ciudad implements iCalculoPoblacion{
 		
 		Ciudad bcn = new Ciudad("Barcelona", 100000);
 		Ciudad mad = new Ciudad("Madrid",  1000000);
-		Ciudad mlg = new Ciudad("Málaga", 50000);	
+		Ciudad mlg = new Ciudad("Malaga", 50000);	
 		Ciudad sev = new Ciudad("Sevilla",  80000);
 				
 		String contenidoJenkinsFile = 
@@ -33,28 +31,28 @@ public class Ciudad implements iCalculoPoblacion{
                         "        stage('"+bcn.nombre+"') {\n" +
                         "            steps {\n" +
                         "                script {\n" +
-                        "                    println 'La ciudad de "+ bcn.nombre +" tiene una población final de "+bcn.poblacionFinal(bcn.poblacionParcial)+" habitantes'\n" +
+                        "                    println 'La ciudad de "+ bcn.nombre +" tiene una poblacion final de "+bcn.poblacionFinal(bcn.poblacionParcial)+" habitantes'\n" +
                         "                }\n" +
                         "            }\n" +
                         "        }\n" +
                         "        stage('"+mad.nombre+"') {\n" +
                         "            steps {\n" +
                         "                script {\n" +
-                        "                    println 'La ciudad de "+ mad.nombre +" tiene una población final de "+mad.poblacionFinal(mad.poblacionParcial)+" habitantes'\n" +
+                        "                    println 'La ciudad de "+ mad.nombre +" tiene una poblacion final de "+mad.poblacionFinal(mad.poblacionParcial)+" habitantes'\n" +
                         "                }\n" +
                         "            }\n" +
                         "        }\n" +
                         "        stage('"+mlg.nombre+"') {\n" +
                         "            steps {\n" +
                         "                script {\n" +
-                        "                    println 'La ciudad de "+ mlg.nombre +" tiene una población final de "+mlg.poblacionFinal(mlg.poblacionParcial)+" habitantes'\n" +
+                        "                    println 'La ciudad de "+ mlg.nombre +" tiene una poblacion final de "+mlg.poblacionFinal(mlg.poblacionParcial)+" habitantes'\n" +
                         "                }\n" +
                         "            }\n" +
                         "        }\n" +
                         "        stage('"+sev.nombre+"') {\n" +
                         "            steps {\n" +
                         "                script {\n" +
-                        "                    println 'La ciudad de "+ sev.nombre +" tiene una población final de "+sev.poblacionFinal(sev.poblacionParcial)+" habitantes'\n" +
+                        "                    println 'La ciudad de "+ sev.nombre +" tiene una poblacion final de "+sev.poblacionFinal(sev.poblacionParcial)+" habitantes'\n" +
                         "                }\n" +
                         "            }\n" +
                         "        }\n" +

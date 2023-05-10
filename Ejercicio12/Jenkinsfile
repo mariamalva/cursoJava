@@ -4,28 +4,28 @@ pipeline {
         stage('Barcelona') {
             steps {
                 script {
-                    println 'La ciudad de Barcelona tiene una población final de 80000.0 habitantes'
+                    println 'La ciudad de Barcelona tiene una poblacion final de 80000.0 habitantes'
                 }
             }
         }
         stage('Madrid') {
             steps {
                 script {
-                    println 'La ciudad de Madrid tiene una población final de 800000.0 habitantes'
+                    println 'La ciudad de Madrid tiene una poblacion final de 800000.0 habitantes'
                 }
             }
         }
-        stage('Málaga') {
+        stage('Malaga') {
             steps {
                 script {
-                    println 'La ciudad de Málaga tiene una población final de 40000.0 habitantes'
+                    println 'La ciudad de Malaga tiene una poblacion final de 40000.0 habitantes'
                 }
             }
         }
         stage('Sevilla') {
             steps {
                 script {
-                    println 'La ciudad de Sevilla tiene una población final de 64000.0 habitantes'
+                    println 'La ciudad de Sevilla tiene una poblacion final de 64000.0 habitantes'
                 }
             }
         }
