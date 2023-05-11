@@ -1,0 +1,1 @@
+Pokemon elegido: pikachu, name_species: pikachu, name_type: electric, weight: 60
