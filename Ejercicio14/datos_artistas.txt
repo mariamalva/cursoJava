@@ -1,0 +1,3 @@
+Artista 1--> nombre: María, género: Pop, número de reproducciones: 1000.0, país donde más se escucha: España, recaudación monetaria: 20.0 y proyección anual: 240.0
+Artista 2--> nombre: Pablo, género: Rock, número de reproducciones: 2000.0, país donde más se escucha: Ecuado, recaudación monetaria: 40.0 y proyección anual: 480.0
+Artista 3--> nombre: Manuel, género: rock, número de reproducciones: 20000.0, país donde más se escucha: Francia, recaudación monetaria: 400.0 y proyección anual: 4800.0
