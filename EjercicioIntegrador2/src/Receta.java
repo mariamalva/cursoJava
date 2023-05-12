@@ -33,26 +33,33 @@ public class Receta extends Ingrediente implements iCalculos {
 		String mensaje = "";
 		try {
 			
-			Scanner sc = new Scanner(new File("C:\\Users\\mmartinezal\\git\\cursoJava\\EjercicioIntegrador2\\Receta.txt"));
+			Scanner sc = new Scanner(new File("Receta.txt"));
 			int num_recetas=Integer.parseInt(((sc.nextLine()).split(" ",2))[0]);
 			recetas = new Receta[num_recetas];
 			for(int i=0;i<num_recetas;i++) {
 				if(i>0)sc.nextLine();
 				recetas[i] = new Receta();
 				recetas[i].nombre = ((sc.nextLine()).split(": ",2))[1];
+				System.out.println(recetas[i].nombre);
 				recetas[i].tipo_comida = ((sc.nextLine()).split(": ",2))[1];
+				System.out.println("Tipo de comida: "+recetas[i].tipo_comida);
 				recetas[i].num_ingredientes = Integer.parseInt(((sc.nextLine()).split(" ",2))[0]);
+				System.out.println(recetas[i].num_ingredientes + " ingredientes");
 				recetas[i].ingredientes = new Ingrediente[recetas[i].num_ingredientes];
+				
 				
 				for(int j=0; j<recetas[i].num_ingredientes;j++)
 				{
 					String ingrediente1 = sc.nextLine();
-					String[] arrayIngredientes = ingrediente1.split("|",3);
+				
+					String[] arrayIngredientes = ingrediente1.split("\\|",3);
 					(recetas[i].ingredientes)[j] = new Ingrediente();
 					(recetas[i].ingredientes)[j].nombre = arrayIngredientes[0];
+					System.out.println((recetas[i].ingredientes)[j].nombre);
 					(recetas[i].ingredientes)[j].medida = arrayIngredientes[1];
+					System.out.println((recetas[i].ingredientes)[j].medida);
 					(recetas[i].ingredientes)[j].cantidad = arrayIngredientes[2];
-					
+					System.out.println((recetas[i].ingredientes)[j].cantidad);
 
 				}
 				mensaje += "Receta "+ (i+1)+"--> nombre: " + recetas[i].nombre 
