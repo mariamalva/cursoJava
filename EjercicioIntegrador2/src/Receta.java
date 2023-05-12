@@ -59,7 +59,7 @@ public class Receta extends Ingrediente implements iCalculos {
 						+", tipo de comida: "+recetas[i].tipo_comida
 						+", numero de ingredientes: "+recetas[i].num_ingredientes
 						+", calorias: "+ recetas[i].calorias()
-						+" cal y tiempo de coccion: " +recetas[i].tiempoCoccion() +" min\n";
+						+" cal y tiempo de coccion: " +recetas[i].tiempoCoccion() +" min \n";
 				
 			}
 			
