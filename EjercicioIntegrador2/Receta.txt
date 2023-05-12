@@ -2,29 +2,29 @@
 Nombre de la receta: Paella
 Tipo de comida: Salada
 17 ingredientes:
-Aceite | 3 cdas | 45 cc 
+Aceite | 3 cdas | 45 cc
 Cebolla | 2 unidades | 240 g
-Ajo | 2 dientes | 10 g 
-Pimiento verde | ½ unidad | 45 g 
-Pimiento rojo | ½ unidad| 45 g 
+Ajo | 2 dientes | 10 g
+Pimiento verde | ½ unidad | 45 g
+Pimiento rojo | ½ unidad| 45 g
 Calamares | N/A | 300 g
-Vino blanco | ½ taza medida | 125 cc 
+Vino blanco | ½ taza | 125 cc
 Tomate | 2 unidades | N/A
-Arroz grano medio | 4 tacitas | 280 g 
-Azafrán Molido ALICANTE | N/A | 1 capsula  
+Arroz grano medio | 4 tacitas | 280 g
+Azafrán Molido ALICANTE | N/A | 1 capsula
 Agua | 10 tacitas | N/A
-Mejillones | N/A | 200 g 
-Almejas | N/A | 200 g 
-Camarones | N/A | 150 g 
-Vieiras | N/A | 150 g 
-Berberechos | N/A | 150 g 
-Langostinos | 8 unidades | 80 g 
+Mejillones | N/A | 200 g
+Almejas | N/A | 200 g
+Camarones | N/A | 150 g
+Vieiras | N/A | 150 g
+Berberechos | N/A | 150 g
+Langostinos | 8 unidades | 80 g
 
 Nombre de la receta: Tortilla de patata
 Tipo de comida: Salada
 5 ingredientes:
 Huevos | 3 medianos | N/A
-Patatas | N/A | 300 g de patatas 
+Patatas | N/A | 300 g
 Aceite de oliva virgen extra | N/A | N/A
 Cebolla | N/A | media pequeña (opcional)
 Sal | N/A |(al gusto)
