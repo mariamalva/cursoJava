@@ -55,7 +55,7 @@ public class Receta extends Ingrediente implements iCalculos {
 
 				recetas[i].ingredientes = new Ingrediente[recetas[i].num_ingredientes];
 				
-				String ingredientes = "ingredientes: ";
+				String ingredientes = "ingredientes (medida/cantidad): ";
 				
 				for(int j=0; j<recetas[i].num_ingredientes;j++)
 				{
@@ -73,7 +73,7 @@ public class Receta extends Ingrediente implements iCalculos {
 					(recetas[i].ingredientes)[j].cantidad = arrayIngredientes[2];
 					
 					ingredientes += ", "+ ((recetas[i].ingredientes)[j].nombre) + " - "
-									+ ((recetas[i].ingredientes)[j].medida)+ " / "
+									+((recetas[i].ingredientes)[j].medida)+ " / "
 									+((recetas[i].ingredientes)[j].cantidad) ;
 					
 				}
