@@ -26,5 +26,5 @@ Tipo de comida: Salada
 Huevos | 3 medianos | N/A
 Patatas | N/A | 300 g
 Aceite de oliva virgen extra | N/A | N/A
-Cebolla | N/A | media pequeña (opcional)
+Cebolla | N/A | media pequena (opcional)
 Sal | N/A |(al gusto)

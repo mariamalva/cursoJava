@@ -71,8 +71,8 @@ public class Receta extends Ingrediente implements iCalculos {
 					(recetas[i].ingredientes)[j].medida = arrayIngredientes[1];
 					
 					(recetas[i].ingredientes)[j].cantidad = arrayIngredientes[2];
-					
-					ingredientes += ", "+ ((recetas[i].ingredientes)[j].nombre) + " - "
+					if(j>0)ingredientes += ", ";
+					ingredientes += ""+ ((recetas[i].ingredientes)[j].nombre) + " - "
 									+((recetas[i].ingredientes)[j].medida)+ " / "
 									+((recetas[i].ingredientes)[j].cantidad) ;
 					
