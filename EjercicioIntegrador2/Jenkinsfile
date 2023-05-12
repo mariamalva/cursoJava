@@ -1,0 +1,14 @@
+pipeline {
+    agent any
+    stages {
+        stage('Recetas') {
+            steps {
+                script {
+                    println 'Receta 1--> nombre: Paella, tipo de comida: Salada, numero de ingredientes: 17, calorias: 17 y tiempo de coccion: 51
+Receta 2--> nombre: Tortilla de patata, tipo de comida: Salada, numero de ingredientes: 5, calorias: 5 y tiempo de coccion: 15
+'
+                }
+            }
+        }
+    }
+}
