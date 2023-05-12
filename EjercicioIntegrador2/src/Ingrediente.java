@@ -1,13 +1,7 @@
 
 public class Ingrediente {
 	String nombre = "";
-	String medida = "N/A";
-	String cantidad = "N/A";  
+	String medida = "";
+	String cantidad = "";  
 	
-	/*public Ingrediente(String nombre, String medida, String cantidad) {
-		this.nombre = nombre;		
-		this.medida = medida;
-		this.cantidad = cantidad;
-
-	}*/
 }

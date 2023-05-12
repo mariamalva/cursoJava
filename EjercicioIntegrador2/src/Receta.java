@@ -14,10 +14,7 @@ public class Receta extends Ingrediente implements iCalculos {
 	String tipo_comida;
 	
 	Ingrediente[] ingredientes;
-	/*
-	public Receta() {
-		super();
-	}*/
+	
 
 	@Override
 	public int calorias() {
@@ -36,7 +33,7 @@ public class Receta extends Ingrediente implements iCalculos {
 		String mensaje = "";
 		try {
 			
-			Scanner sc = new Scanner(new File("C:\\Users\\mmartinezal\\Documents\\JAVA\\Receta.txt"));
+			Scanner sc = new Scanner(new File("C:\\Users\\mmartinezal\\git\\cursoJava\\EjercicioIntegrador2\\Receta.txt"));
 			int num_recetas=Integer.parseInt(((sc.nextLine()).split(" ",2))[0]);
 			recetas = new Receta[num_recetas];
 			for(int i=0;i<num_recetas;i++) {
@@ -62,7 +59,7 @@ public class Receta extends Ingrediente implements iCalculos {
 						+", tipo de comida: "+recetas[i].tipo_comida
 						+", numero de ingredientes: "+recetas[i].num_ingredientes
 						+", calorias: "+ recetas[i].calorias()
-						+" y tiempo de coccion: " +recetas[i].tiempoCoccion() +"\n";
+						+" cal y tiempo de coccion: " +recetas[i].tiempoCoccion() +" min\n";
 				
 			}
 			
@@ -108,4 +105,3 @@ public class Receta extends Ingrediente implements iCalculos {
 	
 
 }
-//genero jenkisfile que lo lee
