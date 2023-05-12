@@ -4,9 +4,7 @@ pipeline {
         stage('Recetas') {
             steps {
                 script {
-                    println 'Receta 1--> nombre: Paella, tipo de comida: Salada, numero de ingredientes: 17, calorias: 17 cal y tiempo de coccion: 51 min
-Receta 2--> nombre: Tortilla de patata, tipo de comida: Salada, numero de ingredientes: 5, calorias: 5 cal y tiempo de coccion: 15 min
-'
+                    println 'Receta 1--> nombre: Paella, tipo de comida: Salada, numero de ingredientes: 17, calorias: 17 cal y tiempo de coccion: 51 min. Receta 2--> nombre: Tortilla de patata, tipo de comida: Salada, numero de ingredientes: 5, calorias: 5 cal y tiempo de coccion: 15 min. '
                 }
             }
         }
