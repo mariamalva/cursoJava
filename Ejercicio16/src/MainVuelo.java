@@ -3,7 +3,9 @@ import java.time.LocalDateTime;
 public class MainVuelo {
 
 	public static void main(String[] args) {
+		
 		// TODO Auto-generated method stub
+		
 		VueloModelo modelo = new VueloModelo();
 		VueloVista vista = new VueloVista();
 		VueloControlador controlador = new VueloControlador(modelo, vista);
@@ -15,7 +17,6 @@ public class MainVuelo {
 		VueloControlador controlador2 = new VueloControlador(modelo2, vista2);
 		controlador2.generarVuelo("Maldives Destination", "Asturias", "Maldivas", LocalDateTime.of(2022, 10, 3, 20, 20, 54),LocalDateTime.of(2022, 10, 4, 9, 21, 1));
 		controlador2.mostrarVuelo();
-		
 		
 		VueloModelo modelo3 = new VueloModelo();
 		VueloVista vista3 = new VueloVista();
