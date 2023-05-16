@@ -25,8 +25,7 @@ public class Controlador {
 			System.out.println("\nUsuario "+ (i+1));
 			usuarios[i] = new Usuario();
 			System.out.println("Introduce nombre: ");
-			String nombre = sc.next();
-			usuarios[i].setNombre(nombre);
+			usuarios[i].setNombre(sc.next());
 			System.out.println("Introduce apellido: ");
 			usuarios[i].setApellido(sc.next());
 			System.out.println("Introduce correo: ");
