@@ -5,12 +5,10 @@ import java.time.LocalDate;
 import modelos.*;
 import vistas.*;
 
-//import VistaBanco.VentanaLogin;
+
 
 public class ControladorBanco {
-//aqui hago vista.getBoto.addactionlistener y en actioonPerformadllamo a ventanas nuevas y a metodo 
-	//como guardar suario del ejercicio 2 para hacer modelo.set y vista.limpiarFormuladrio
-	//mostrar mensajes proo consola: tras login y registro
+
 	
 	//modelos
 	private ModeloBanco modeloBanco;
@@ -85,10 +83,10 @@ public class ControladorBanco {
 			public void actionPerformed(ActionEvent e1)
 			{
 				
-				nuevoLogin = new VentanaLogin();//nuevoLogin = vistaBanco.getNuevoLogin();
+				nuevoLogin = new VentanaLogin();
 				nuevoLogin.setVisible(true);
 				nuevoLogin.mostrarMensaje();
-				//VistaBanco.VentanaLogin nuevaVentana = new VistaBanco.VentanaLogin();
+				
 				//campos
 				
 				nuevoLogin.getBotonAcceso().addActionListener(new ActionListener() {
@@ -100,11 +98,11 @@ public class ControladorBanco {
 						
 						
 
-						String nombre = nuevoLogin.getNombreField().getText(); //obtengo el nombre
+						String nombre = nuevoLogin.getNombreField().getText(); 
 						String contrasenia = nuevoLogin.getContraseniaField().getText();  
 						
-						modeloBanco.setNombreField_login(nombre); //establezco el nombres
-						modeloBanco.setContraseniaField(contrasenia); //establezco la contrasenia
+						modeloBanco.setNombreField_login(nombre); 
+						modeloBanco.setContraseniaField(contrasenia); 
 						
 						
 						nuevoLogin.limpiarFormularioLogin();

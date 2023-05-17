@@ -10,7 +10,7 @@ public class TarjetaBancaria {
 	private LocalDate fechaVencimiento;
 	
 	
-	//private Titular;
+
 	public String getNombre() {
 		return nombre;
 	}

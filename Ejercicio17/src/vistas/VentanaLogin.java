@@ -2,8 +2,7 @@ package vistas;
 
 import java.awt.BorderLayout;
 import java.awt.GridLayout;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+
 
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
@@ -28,9 +27,7 @@ public class VentanaLogin extends JFrame{
 	
 	private JButton botonAcceso;
 	
-	private ActionListener accesoActionListener; 
-	
-	private VentanaProductos nuevaProductos;
+
 	
 	public VentanaLogin() {
 		//frameLogin = new JFrame("Login");
@@ -39,8 +36,6 @@ public class VentanaLogin extends JFrame{
 		setIconImage(icono.getImage());
 		panelLogin = new JPanel();
 		
-		//frameLogin.setSize(500,400);
-		//frameLogin.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setSize(700,150);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
@@ -58,21 +53,7 @@ public class VentanaLogin extends JFrame{
 		
 		botonAcceso = new JButton("Acceder");
 		
-		/*
-		accesoActionListener = new ActionListener()
-				{
-					public void actionPerformed(ActionEvent e)
-					{
-						
-						
-						nuevaProductos = new VentanaProductos();
-						//llamo a setVisible en constructor
-					}
-			
-				};
-		botonAcceso.addActionListener(accesoActionListener);
-		*/
-		
+	
 		panelLogin.add(botonAcceso, BorderLayout.SOUTH);
 		
 		lamina_secundaria_login.add(nombreUsuario);
@@ -83,12 +64,11 @@ public class VentanaLogin extends JFrame{
 		
 		panelLogin.add(lamina_secundaria_login, BorderLayout.CENTER);
 		
-		//frameLogin.getContentPane().add(panelLogin);
-		//frameLogin.setVisible(true);
+		
 		getContentPane().add(panelLogin);
 	}
 	
-	public void limpiarFormularioLogin() //Funcion de limpieza de formulario.
+	public void limpiarFormularioLogin() 
 	{
 		nombreField.setText("");
 		contraseniaField.setText("");

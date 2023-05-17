@@ -2,8 +2,7 @@ package vistas;
 
 import java.awt.BorderLayout;
 import java.awt.GridLayout;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+
 
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
@@ -14,7 +13,7 @@ import javax.swing.JTextField;
 
 public class VentanaRegistro extends JFrame{
 	
-	//private JFrame frameRegistro;
+	
 	private JPanel panelRegistro;
 	private JPanel lamina_secundaria_Registro;
 	
@@ -35,9 +34,7 @@ public class VentanaRegistro extends JFrame{
 	
 	private JButton botonRegistro;
 	
-	private ActionListener registroActionListener; 
-	
-	private VentanaProductos nuevaProductos;
+
 	
 	public VentanaRegistro() {
 		//frameRegistro = new JFrame("Registro");
@@ -74,21 +71,6 @@ public class VentanaRegistro extends JFrame{
 		
 		botonRegistro = new JButton("Registrar");
 		
-		/*
-		registroActionListener = new ActionListener()
-				{
-					public void actionPerformed(ActionEvent e)
-					{
-						// si me da tiempo añadir : agregar suaurio a lista
-						
-						nuevaProductos = new VentanaProductos();
-						//llamo a setVisible en constructor
-					}
-			
-				};
-		botonRegistro.addActionListener(registroActionListener);
-		
-		*/
 		
 		panelRegistro.add(botonRegistro, BorderLayout.SOUTH);
 		
@@ -113,7 +95,7 @@ public class VentanaRegistro extends JFrame{
 		panelRegistro.add(lamina_secundaria_Registro, BorderLayout.CENTER);
 		
 		getContentPane().add(panelRegistro);
-		//frameRegistro.setVisible(true);
+		
 	}
 	
 	public void limpiarFormularioRegistro() //Funcion de limpieza de formulario.
