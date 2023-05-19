@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>RecetasMiCocina</title>
+
+<style>
+body
+{
+	background-color: #FBF8EF;
+}
+
+.container 
+{
+	max-width: 700px;
+	margin: 0 auto;
+	padding: 50px;
+	font-size: 20px;
+}
+
+.button
+{
+    display: inline-block;
+	padding: 10px 10px;
+	background-color: #F3E2A9;
+	color: #070719;
+	text-decoration: none;
+	border-radius: 5px; /*para el redondeo de las esquinas*/
+	font-size: 15px;
+}
+
+.button2
+{
+    display: inline-block;
+	padding: 10px 10px;
+	background-color: #F5ECCE;
+	color: #070719;
+	text-decoration: none;
+	border-radius: 5px; /*para el redondeo de las esquinas*/
+	font-size: 15px;
+}
+
+</style>
+</head>
+
+<body>
+<div class = "container">
+<a href="index.html"><button class ="button">Volver al inicio</button></a>
+<a href="pagina_conocenos.html"><button class ="button">Sobre nosotros</button></a>
+<a href="pagina_contacto.html"><button class ="button">Contáctenos</button></a>
+
+<h1 ALIGN=CENTER>RECETAS</h1>
+<h2>Paella</h2>
+<a href= "#" onclick= "mostrarImagen()"><button class ="button2">Mostrar/Ocultar imagen</button></a>
+
+<div id="imagen" style="display: none;">
+	<img src="https://images.hola.com/imagenes/cocina/recetas/20190903148579/paella-valenciana-caracoles/0-715-65/paella-caracoles-m.jpg" alt= "PaellaValenciana" width="700">
+</div>
+
+<ul>
+<li>Dificultad: Media</li>
+<li>Tiempo total: 1 h 30 min (10 min de elaboración, 1 h y 15 min de cocción y 5 min de reposo)</li>
+</ul>
+
+<h3>Ingredientes (12 personas)</h3>
+
+<table> 
+<tr> 
+<th>Nombre</th> 
+<th>Cantidad/Medida </th> 
+</tr> 
+<tr> 
+<td>Arroz bomba</td> 
+<td>1500 g</td> 
+</tr> 
+<tr> 
+<td>Pollo de corral</td> 
+<td>1 unidad</td> 
+</tr> 
+<tr> 
+<td>Conejo</td> 
+<td>1/2 unidad</td> 
+</tr> 
+<tr> 
+<td>Judía verde plana</td> 
+<td>500 g</td> 
+</tr> 
+<tr> 
+<td>Garrofó</td> 
+<td>500 g</td> 
+</tr> 
+<tr> 
+<td>Alcachofa (opcional)</td> 
+<td>6 g</td> 
+</tr> 
+<tr> 
+<td>Caracoles</td> 
+<td>500 g</td> 
+</tr> 
+<tr> 
+<td>Aceite de oliva virgen extra &nbsp;&nbsp;</td> 
+<td>Al gusto</td> 
+</tr> 
+<tr> 
+<td>Pimentón dulce</td> 
+<td>Al gusto</td> 
+</tr> 
+<tr> 
+<td>Tomate triturado</td> 
+<td>Al gusto</td> 
+</tr> 
+<tr> 
+<td>Azafrán</td> 
+<td>Al gusto</td> 
+</tr> 
+<tr> 
+<td>Romero fresco</td> 
+<td>Al gusto</td> 
+</tr> 
+<tr> 
+<td>Sal</td> 
+<td>Al gusto</td> 
+</tr> 
+</table> 
+<h3>Pasos para su elaboración</h3>
+<ol>
+<li>Un buen sofrito</li>
+<li>Añadir agua (añadir tres veces el volumen de agua que de arroz)</li>
+<li>Cocer el caldo durante 25 o 30 minutos</li>
+<li>Añadimos el arroz "en caballete" (en diagonal) y lo distribuimos por la paella</li>
+<li>Cocemos entre 17 y 20 minutos (depende del grano de arroz y la potencia del fuego)</li>
+<li>A mitad cocción poner unas ramitas de romero</li>
+<li>Dejar reposar unos minutos tapada con un gran paño</li>
+</ol>
+
+<br>
+<br>
+
+<a href="index.html"><button class ="button">Volver al inicio</button></a>
+<a href="pagina_conocenos.html"><button class ="button">Sobre nosotros</button></a>
+<a href="pagina_contacto.html"><button class ="button">Contáctenos</button></a>
+</div>
+
+<script>
+function mostrarImagen()
+{
+	var imagen = document.getElementById("imagen")
+	if (imagen.style.display == "none")
+		{
+			imagen.style.display = "block";
+		}
+	else
+		{
+			imagen.style.display = "none";
+		}	
+}
+
+</script>
+</body>
+</html>
